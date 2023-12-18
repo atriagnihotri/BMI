@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_width="85dp"
+    android:layout_height="85dp"
+    android:src="@drawable/heartbeat"
+    android:id="@+id/gif"/>
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="B.M.I"
+        android:textColor="@color/white"
+        android:id="@+id/bmi"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#716D75"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:hint="Enter Your Weight"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/weight"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:hint="Enter Your Height In ft"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/ft"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:hint="Enter Your Height in In"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColorHint="@color/white"
+            android:id="@+id/in"/>
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="55dp"
+                android:backgroundTint="#009688"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="CHECK"
+                android:id="@+id/btn"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

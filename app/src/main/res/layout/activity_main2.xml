@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#678797"
+    android:gravity="center"
+    tools:context=".MainActivity2">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/heartbeat"
+        android:id="@+id/dataimg"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:text="Your B.M.I"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#686666"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="RESULT"
+        android:gravity="center"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/result"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="data for fitness"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#196AD8"
+        android:textStyle="bold"
+        android:id="@+id/notedata"/>
+
+
+
+</LinearLayout>
