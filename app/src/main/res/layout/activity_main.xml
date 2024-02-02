@@ -14,7 +14,7 @@
     android:src="@drawable/heartbeat"
     android:id="@+id/gif"/>
     <TextView
-        android:layout_width="255dp"
+        android:layout_width="255sp"
         android:layout_height="30dp"
         android:gravity="center"
         android:text="B.M.I"
